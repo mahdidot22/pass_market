@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_category"
+        android:icon="@drawable/ic_category"
+        android:title="Category" />
+
+    <item
+        android:id="@+id/navigation_Statistics"
+        android:icon="@drawable/ic_search"
+        android:title="Statistics" />
+
+
+</menu>

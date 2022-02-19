@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.mahdid.o.taha.onlineshoppingsystem.Order_history">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bar_Statistics"
+        android:layout_width="match_parent"
+        app:menu="@menu/search"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:background="@color/Splash">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ListView
+        android:padding="15dp"
+        android:layout_marginTop="?actionBarSize"
+        android:id="@+id/Statistics_history_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+</RelativeLayout>

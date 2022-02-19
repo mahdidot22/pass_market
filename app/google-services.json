@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "841862504670",
+    "firebase_url": "https://myfirstproject-c0920.firebaseio.com",
+    "project_id": "myfirstproject-c0920",
+    "storage_bucket": "myfirstproject-c0920.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841862504670:android:6cf1a5f6c2ea52fad4624f",
+        "android_client_info": {
+          "package_name": "com.mahdid.o.taha.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841862504670-nl17l4kvvicileu49orjq7saj4gn035t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTTfJ3O1IrIgccnJj9gLxnw5Nnz6jykV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841862504670-nl17l4kvvicileu49orjq7saj4gn035t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841862504670:android:7cb28453dfad446cd4624f",
+        "android_client_info": {
+          "package_name": "com.mahdid.o.taha.onlineshoppingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841862504670-nl17l4kvvicileu49orjq7saj4gn035t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTTfJ3O1IrIgccnJj9gLxnw5Nnz6jykV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841862504670-nl17l4kvvicileu49orjq7saj4gn035t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BF7FCA"
+    tools:context="com.mahdid.o.taha.onlineshoppingsystem.SignUp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/signupshape"
+        android:clickable="false"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_above="@id/SignUp_form"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/SignUp_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp"
+        android:background="#BF7FCA"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/Sign_up_Err"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9C27B0"
+            android:clickable="false"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/sign_up_ed_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:gravity="center"
+            android:hint="Username"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/sign_up_ed_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:gravity="center"
+            android:hint="E-mail"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/sign_up_ed_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+
+            />
+
+
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9C27B0"
+            android:padding="15dp"
+            android:text="Sign up"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sign_up_login_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#9C27B0"
+        android:gravity="center"
+        android:text="Have an account! Login Page!"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/P_INFO"
+        android:title="Product detail's" />
+    <item
+        android:id="@+id/Add_to_cart"
+        android:title="Add to cart" />
+</menu>

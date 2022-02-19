@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="right"
+            android:layout_weight="1"
+            android:id="@+id/order_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dd mm yyyy"/>
+    </LinearLayout>
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/order_owner"
+        android:textDirection="firstStrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="owner"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/order_id"
+        android:textDirection="firstStrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/order_coast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:text="000 USD"/>
+
+</LinearLayout>
